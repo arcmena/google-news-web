@@ -1,6 +1,5 @@
-import { JSXElementConstructor, ReactNode } from 'react'
+import { BaseHTMLAttributes, JSXElementConstructor } from 'react'
 
-export interface SubtitleProps {
+export interface SubtitleProps extends BaseHTMLAttributes<HTMLHeadingElement> {
   as?: string | JSXElementConstructor<any>
-  children: ReactNode
 }

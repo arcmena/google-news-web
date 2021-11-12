@@ -1,6 +1,5 @@
-import { JSXElementConstructor, ReactNode } from 'react'
+import { BaseHTMLAttributes, JSXElementConstructor } from 'react'
 
-export interface HeadingProps {
+export interface HeadingProps extends BaseHTMLAttributes<HTMLHeadingElement> {
   as?: string | JSXElementConstructor<any>
-  children: ReactNode
 }

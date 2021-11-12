@@ -1,6 +1,6 @@
-import { JSXElementConstructor, ReactNode } from 'react'
+import { BaseHTMLAttributes, JSXElementConstructor } from 'react'
 
-export interface ParagraphProps {
+export interface ParagraphProps
+  extends BaseHTMLAttributes<HTMLParagraphElement> {
   as?: string | JSXElementConstructor<any>
-  children: ReactNode
 }
