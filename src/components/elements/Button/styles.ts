@@ -4,7 +4,7 @@ import {
   BorderSizeNone,
   BrandColorPrimary3,
   BrandColorPrimary4,
-  FontSizeSm,
+  FontSizeXs,
   FontWeightMedium,
   LineHeightTight,
   NeutralColor1,
@@ -17,7 +17,7 @@ export const ButtonContainer = styled('button')<ButtonProps>`
   //style reset
   border: none;
 
-  font-size: ${FontSizeSm};
+  font-size: ${FontSizeXs};
   line-height: ${LineHeightTight};
   border-radius: ${BorderSizeNone};
   padding: ${SpacingSquishSizeSmStack};
