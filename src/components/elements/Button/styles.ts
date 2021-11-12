@@ -8,7 +8,7 @@ import {
   FontWeightMedium,
   LineHeightTight,
   NeutralColor1,
-  SpacingSquishSizeXsStack
+  SpacingSquishSizeSmStack
 } from '../../../styles/design-tokens'
 
 import { ButtonProps } from './types'
@@ -20,7 +20,7 @@ export const ButtonContainer = styled('button')<ButtonProps>`
   font-size: ${FontSizeSm};
   line-height: ${LineHeightTight};
   border-radius: ${BorderSizeNone};
-  padding: ${SpacingSquishSizeXsStack};
+  padding: ${SpacingSquishSizeSmStack};
 
   font-weight: ${FontWeightMedium};
   color: ${NeutralColor1};
