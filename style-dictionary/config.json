@@ -2,7 +2,7 @@
   "source": ["./style-dictionary/properties/**/*.json"],
   "platforms": {
     "ts": {
-      "transformGroup": "js",
+      "transformGroup": "custom/js",
       "buildPath": "./src/styles/",
       "files": [
         {
