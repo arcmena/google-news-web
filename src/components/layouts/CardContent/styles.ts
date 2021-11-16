@@ -6,15 +6,18 @@ import {
 } from '../../../styles/design-tokens'
 
 export const CardContentContainer = styled.div`
-  max-width: 357px;
+  min-width: 357px;
 
   .card_title {
     margin-bottom: ${SpacingSizeXxxs};
+    word-break: break-word;
   }
   .card_subtitle {
     margin-bottom: ${SpacingSizeXxs};
+    word-break: break-word;
   }
   .card_paragraph {
     margin-bottom: ${SpacingSizeSm};
+    word-break: break-word;
   }
 `
